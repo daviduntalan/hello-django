@@ -1,6 +1,6 @@
 # Hello, World! in Django
-&copy; 2026 by `David, Jr.`
-To display "Hello, World!" in Django, you need to set up a project, create a view that returns an HTTP response, and map it to a URL. \
+
+To display "Hello, World!" in Django, you need to set up a project, create a view that returns an HTTP response, and map it to a URL. You can ignore or read the following hyperlinks: \
 [1] (https://docs.djangoproject.com/en/6.1/intro/tutorial01/), \
 [2] (https://learndjango.com/tutorials/django-hello-world) \
 The steps below use the standard, modular approach recommended in the Official Django Tutorial.
@@ -109,3 +109,6 @@ python manage.py runserver
 Open your web browser and go to http://127.0.0.1:8000. You should see "Hello, World!" displayed on the screen.
 
 ## Tapos na po!
+&copy; 2026 by `David, Jr.`
+
+![Screenshot of Workflow](ss-flow.png)
