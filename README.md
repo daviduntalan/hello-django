@@ -12,8 +12,8 @@ Open your terminal and run the following commands to create a workspace, install
 [2] (https://www.youtube.com/watch?v=76ke335qaIQ)
 ``` bash
 # Create and navigate to a new project folder
-mkdir hello_django
-cd hello_django
+mkdir hello-django
+cd hello-django
 
 # Create and activate a virtual environment
 python -m venv venv
