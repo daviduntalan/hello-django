@@ -9,19 +9,19 @@ The steps below use the standard, modular approach recommended in the Official D
 1. GitHub CLI 
 2. Python/Django
 
-### Step 1: Generate an SSH key in WSL
+#### Step 1: Generate an SSH key in WSL
 ``` bash
 ssh-keygen -t ed25519 -C "your@email.com"
 ```
-### Step 2: Copy your public key
+#### Step 2: Copy your public key
 ``` bash
 cat ~/.ssh/id_ed25519.pub
 ```
 Copy the entire ouput starting with ssh-ed25519... 
 
-### Step 3: Add key to GitHub
+#### Step 3: Add key to GitHub
 
-### Step 4: Switch your remote URL from HTTPS to SSH and push
+#### Step 4: Switch your remote URL from HTTPS to SSH and push
 ``` bash
 git remote set-url origin git@github.com:daviduntalan/hello-django.git
 git push -u origin main
