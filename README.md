@@ -5,6 +5,28 @@ To display "Hello, World!" in Django, you need to set up a project, create a vie
 [2] (https://learndjango.com/tutorials/django-hello-world) \
 The steps below use the standard, modular approach recommended in the Official Django Tutorial.
 
+## 0. Pre-requisite
+1. GitHub CLI 
+2. Python/Django
+
+### Step 1: Generate an SSH key in WSL
+``` bash
+ssh-keygen -t ed25519 -C "your@email.com"
+```
+### Step 2: Copy your public key
+``` bash
+cat ~/.ssh/id_ed25519.pub
+```
+Copy the entire ouput starting with ssh-ed25519... 
+
+### Step 3: Add key to GitHub
+
+### Step 4: Switch your remote URL from HTTPS to SSH and push
+``` bash
+git remote set-url origin git@github.com:daviduntalan/hello-django.git
+git push -u origin main
+```
+
 ## 1. Set Up the Environment and Project
 
 Open your terminal and run the following commands to create a workspace, install Django, and generate your project: \
